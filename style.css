@@ -1,1 +1,49 @@
 /* Put your custom CSS here */
+#root {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+}
+
+.select_container {
+    width: 45%;
+}
+
+.select_container select {
+    width: 95%;
+    font-size: 1.4rem;
+    padding: 4%;
+    border: none;
+    border-bottom: 1px solid rgb(153, 235, 153);
+}
+
+.select_container p {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.movie_container {
+    width: 26%;
+    position: relative;
+}
+
+.movie_container h2 {
+    position: absolute;
+    top: 65%;
+    color: white;
+    background-color: rgba(47, 33, 33, 0.6);
+    left: 3%;
+}
+
+.movie_container p {
+    width: 95%;
+    text-align: justify;
+}
+
+.movie_container img {
+    width: 100%;
+}
+
+
+
+
